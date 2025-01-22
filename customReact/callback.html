@@ -1,0 +1,13 @@
+import { func } from "prop-types";
+
+setTimeout(function(){
+    console.log("timer");
+})
+
+function x(){
+    console.log("x");
+}
+
+x(function(y){
+    console.log("y");
+})
